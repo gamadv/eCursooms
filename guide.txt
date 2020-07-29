@@ -1,0 +1,15 @@
+Requisitos:
+- ReactNative.
+- Integração com um json fixo "simulando" o consumo de uma api.
+- Tela de listagem dos cursos
+
+
+Img sizes:
+- splash: 1242x1242
+- icon: 192x192
+- favicon: 48x48
+
+
+Screens:
+- Home (curseList, title)
+- CurseContente (curseTitle, curseImgSplash, curseDescribe)

@@ -1,0 +1,44 @@
+{
+    "curses": [
+        {
+            "id": "1",
+            "title": "Curso de React",
+            "describe": {
+                "about": "Aprenda a controlar o mundo com um Site",
+                "img1": "../../assets/gears.png",
+                "img2": "link a colocar"
+            },
+            "imgSplash": "link a colocar"
+        },
+        {
+            "id": "2",
+            "title": "Curso de React Native",
+            "describe": {
+                "about": "Aprenda a controlar o mundo com App",
+                "img1": "link a colocar",
+                "img2": "link a colocar"
+            },
+            "imgSplash": "link a colocar"
+        },
+        {
+            "id": "3",
+            "title": "Curso de Node",
+            "describe": {
+                "about": "Aprenda a controlar o mundo com uma API REST",
+                "img1": "link a colocar",
+                "img2": "link a colocar"
+            },
+            "imgSplash": "link a colocar"
+        },
+        {
+            "id": "4",
+            "title": "Curso de Firebase",
+            "describe": {
+                "about": "Aprenda a controlar o mundo com Banco de dados",
+                "img1": "link a colocar",
+                "img2": "link a colocar"
+            },
+            "imgSplash": "link a colocar"
+        }
+    ]
+}
