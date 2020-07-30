@@ -39,7 +39,8 @@ const cursesST = StyleSheet.create({
     texts: {
         color: "grey",
         fontSize: 15,
-        fontWeight: "bold"
+        fontWeight: "bold",
+        padding: 5
     },
 
     curseDesc: {

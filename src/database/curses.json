@@ -3,45 +3,42 @@
         {
             "id": "1",
             "title": "Curso de React",
-            "icoLogo": "link a colocar",
-            "imgSplash": "link a colocar",
+            "icoLogo": "https://github.com/gamadv/eCursooms/blob/master/src/temp/rjsIco.png?raw=true",
+            "imgSplash": "https://github.com/gamadv/eCursooms/blob/master/src/temp/rjs2.jpg?raw=true",
             "describe": {
-                "about": "Aprenda a controlar o mundo com um Site",
-                "img1": "link a colocar",
-                "img2": "link a colocar"
+                "about": "Aprenda a controlar o mundo com um Site! React faz com que a criação de UIs interativas seja uma tarefa fácil. Crie views simples para cada estado na sua aplicação, e o React irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em que os dados mudam.",
+                "img1": "https://github.com/gamadv/eCursooms/blob/master/src/temp/rjs1.png?raw=true"
             }
         },
         {
             "id": "2",
             "title": "Curso de React Native",
-            "icoLogo": "link a colocar",
-            "imgSplash": "link a colocar",
+            "icoLogo": "https://github.com/gamadv/eCursooms/blob/master/src/temp/rcnIco.png?raw=true",
+            "imgSplash": "https://github.com/gamadv/eCursooms/blob/master/src/temp/rcn1.jpeg?raw=true",
             "describe": {
-                "about": "Aprenda a controlar o mundo com App",
-                "img1": "link a colocar",
-                "img2": "link a colocar"
+                "about": "Aprenda a controlar o mundo com um App! React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces. Use a little—or a lot. You can use React Native today in your existing Android and iOS projects or you can create a whole new app from scratch.",
+                "img1": "https://raw.githubusercontent.com/gamadv/eCursooms/master/src/temp/rcn2.webp"
             }
         },
         {
             "id": "3",
             "title": "Curso de Node",
-            "icoLogo": "link a colocar",
-            "imgSplash": "link a colocar",
+            "icoLogo": "https://github.com/gamadv/eCursooms/blob/master/src/temp/nodeI.jpg?raw=true",
+            "imgSplash": "https://github.com/gamadv/eCursooms/blob/master/src/temp/node1.jpeg?raw=true",
             "describe": {
-                "about": "Aprenda a controlar o mundo com uma API REST",
-                "img1": "link a colocar",
-                "img2": "link a colocar"
+                "about": "Aprenda a controlar o mundo com uma API REST! As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following hello world example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.",
+                "img1": "https://github.com/gamadv/eCursooms/blob/master/src/temp/node2.png?raw=true"
             }
         },
         {
             "id": "4",
             "title": "Curso de Firebase",
-            "icoLogo": "link a colocar",
-            "imgSplash": "link a colocar",
+            "icoLogo": "https://github.com/gamadv/eCursooms/blob/master/src/temp/fbIcon.png?raw=true",
+            "imgSplash": "https://github.com/gamadv/eCursooms/blob/master/src/temp/fb1.jpg?raw=true",
             "describe": {
-                "about": "Aprenda a controlar o mundo com um Banco de dados",
-                "img1": "link a colocar",
-                "img2": "link a colocar"
+                "about": "Aprenda a controlar o mundo com um Banco de dados! O Firebase ajuda as equipes de aplicativos para dispositivos móveis e da Web a alcançar o sucesso",
+                "img1": "https://github.com/gamadv/eCursooms/blob/master/src/temp/fb2.png?raw=true",
+                "img2": "https://github.com/gamadv/eCursooms/blob/master/src/temp/fb3.png?raw=true"
             }
         }
     ]
