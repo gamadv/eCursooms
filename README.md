@@ -22,8 +22,8 @@
 
 <h1 align=center>
   <img src="readme-assets/resized.gif"> 
-  <p><i> Qualidade do GIF foi prejudica - Screen recorded with my Redmi Note 6 Pro</i> </p>
 </h1>
+<p><i> Qualidade do GIF foi prejudicada - Screen recorded with my Redmi Note 6 Pro</i> </p>
 
 Esta aplicação fora desenvolvido em uma solicitação de teste técnico,
 utilizando as tecnologias: **React Native e EXPO** para
