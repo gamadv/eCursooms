@@ -20,6 +20,11 @@
   <a href="#black_square_button-baixando-o-projeto">Baixando o Projeto</a>
 </p>
 
+<h1 align=center>
+  <img src="readme-assets/resized.gif"> 
+  <p><i> Qualidade do GIF foi prejudica - Screen recorded with my Redmi Note 6 Pro</i> </p>
+</h1>
+
 Esta aplicação fora desenvolvido em uma solicitação de teste técnico,
 utilizando as tecnologias: **React Native e EXPO** para
 construção de um app para consulta de cursos online.
