@@ -4,8 +4,7 @@ import Constants from 'expo-constants'
 
 const cursesST = StyleSheet.create({
     container: {
-        // flex: 1,
-        paddingTop: 10 + Constants.statusBarHeight,
+        paddingTop: Constants.statusBarHeight,
     },
 
     header: {
@@ -22,15 +21,13 @@ const cursesST = StyleSheet.create({
         marginBottom: 30,
     },
 
-    headerButton:{
+    headerButton: {
         alignItems: "center",
     },
 
     headerLabels: {
         padding: 30,
         alignItems: "center",
-        // flexDirection: "column",
-        // justifyContent: "space-between",
     },
     headerLabel: {
         color: "#fb7100",
@@ -39,13 +36,15 @@ const cursesST = StyleSheet.create({
         marginBottom: 60
     },
 
-    headerSub: {
-        color: "white",
+    texts: {
+        color: "grey",
         fontSize: 15,
+        fontWeight: "bold"
     },
 
     curseDesc: {
         backgroundColor: "#ffffff",
+        borderRadius: 13,
         padding: 32,
         marginTop: 15,
         marginBottom: 20,

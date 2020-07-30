@@ -10,22 +10,15 @@ const Home = () => {
 
     const navigation = useNavigation()
 
-    function navigateToCurses(propRaj) {
-        navigation.navigate('Curses')
-    }
-
     return (
         <View style={homeST.container}>
-
             <ImageBackground
                 source={require("../../assets/bg.png")}
                 style={homeST.header}>
 
                 <View style={homeST.headerMenu}>
-                    <Image source={require("../../assets/gears.png")}
-                        styled={homeST.img1} />
-                    <Image source={require("../../assets/menu.png")}
-                        styled={homeST.img1} />
+                    <Image source={require("../../assets/gears.png")} />
+                    <Image source={require("../../assets/menu.png")} />
                 </View>
 
                 <View style={homeST.headerLabels}>
@@ -40,21 +33,15 @@ const Home = () => {
                 data={cursesDB.curses}
                 keyExtractor={curses => String(curses.id)}
                 renderItem={({ item }) => (
-                    <View>
-                        <TouchableOpacity
-                            onPress={() => navigation.navigate('Curses', { item })}
-                            style={homeST.curse}>
-                            <Text> {item.title}</Text>
 
-                            <ImageBackground 
-                                style={homeST.curseIMG}
-                                source={{uri: item.describe.img1}}></ImageBackground>
+                    <TouchableOpacity
+                        style={homeST.curse}
+                        onPress={() => navigation.navigate('Curses', { item })}>
+                        <Text style={homeST.texts}> {item.title}</Text>
                         <Image
-                        style={homeST.curseIMG} 
-                        source={{ uri: item.describe.img1 }} />
-                        </TouchableOpacity>
-                        
-                    </View>
+                            style={homeST.curseIMG}
+                            source={{ uri: item.icoLogo }} />
+                    </TouchableOpacity>
                 )}
             />
         </View>
